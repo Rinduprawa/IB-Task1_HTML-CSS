@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(100deg, rgba(0,0,0,0.62) 50.90%, rgba(0,0,0,0.62) 50.90%), url(img/download\ \(6\).jpeg);
+    background-size: cover;
+}
+.title h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background: url(img/download\ \(6\).jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: 50% 30%;
+    color: black;
+}
+.container{
+    margin: 0 6em;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px;
+    color: darkcyan;
+}
+.desc p{
+    text-align: left;
+    margin-top: 100px;
+    border-left: 10px solid darkcyan;
+    width: 25%;
+    background: url(img/download\ \(6\).jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: 50% 30%;
+    color: black;
+    font-weight: bold;
+    line-height: 20px;
+}
+span{
+    color: wheat;
+}
+.menu a{
+    padding: 20px;
+    color: wheat;
+    font-weight: 500;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+}
